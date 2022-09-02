@@ -14,7 +14,7 @@ public class JdbcConnector {
     private Connection startConnection() throws SQLException, ClassNotFoundException {
         String url = "jdbc:postgresql://localhost:5432/test_market";
         String username = "postgres";
-        String password = "2816alex";
+        String password = "2580";
         Class.forName("org.postgresql.Driver");
         return DriverManager.getConnection(url, username, password);
     }

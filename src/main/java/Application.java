@@ -5,11 +5,7 @@ import java.io.IOException;
 
 public class Application {
     public static void main(String[] args) throws IOException {
-        String[] arg = new String[3];
-        arg[0] = "search";
-        arg[1] = "input.json";
-        arg[2] = "output.json";
-        InputData data = new InputData(arg);
+        InputData data = new InputData(args);
         try {
             JdbcConnector connector = new JdbcConnector();
             Output output = null;

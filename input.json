@@ -1,0 +1,9 @@
+{
+  "criterias": [
+    {"lastName": "Иванов"},
+    {"productName": "Сметана", "minTimes": 2},
+    {"minExpenses": 200, "maxExpenses": 4000},
+    {"lastName": "Никифоров"},
+    {"badCustomers": 3}
+  ]
+}
