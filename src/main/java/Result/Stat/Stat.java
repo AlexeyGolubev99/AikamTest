@@ -1,3 +1,5 @@
+package Result.Stat;
+
 public class Stat {
     private String startDate;
     private String endDate;

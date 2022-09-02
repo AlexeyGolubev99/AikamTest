@@ -1,3 +1,8 @@
+package Result.Stat;
+
+import Result.Output;
+import Result.Stat.Consumer;
+
 import java.util.ArrayList;
 
 public class OutputStat extends Output {

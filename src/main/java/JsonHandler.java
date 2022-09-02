@@ -1,3 +1,5 @@
+import Result.Search.Criteria;
+import Result.Stat.Stat;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;

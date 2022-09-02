@@ -1,3 +1,5 @@
+package Result.Stat;
+
 public class Purchases implements Comparable<Purchases> {
     private String name;
     private int expenses;

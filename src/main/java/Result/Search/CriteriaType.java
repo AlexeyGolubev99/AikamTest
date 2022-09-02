@@ -1,24 +1,26 @@
+package Result.Search;
+
 public class CriteriaType {
     private String lastName;
     private String productName;
-    private int minTimes;
-    private int badCustomers;
-    private int minExpenses;
-    private int maxExpenses;
+    private Integer minTimes;
+    private Integer badCustomers;
+    private Integer minExpenses;
+    private Integer maxExpenses;
 
-    public int getBadCustomers() {
+    public Integer getBadCustomers() {
         return badCustomers;
     }
 
-    public int getMaxExpenses() {
+    public Integer getMaxExpenses() {
         return maxExpenses;
     }
 
-    public int getMinExpenses() {
+    public Integer getMinExpenses() {
         return minExpenses;
     }
 
-    public int getMinTimes() {
+    public Integer getMinTimes() {
         return minTimes;
     }
 

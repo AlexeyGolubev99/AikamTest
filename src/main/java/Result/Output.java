@@ -1,3 +1,5 @@
+package Result;
+
 public abstract class Output {
     private String type;
 

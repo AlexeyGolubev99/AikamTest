@@ -1,3 +1,5 @@
+package Result.Stat;
+
 import java.util.ArrayList;
 
 public class Consumer implements Comparable<Consumer> {

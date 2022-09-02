@@ -1,3 +1,5 @@
+package Result.Search;
+
 import java.util.ArrayList;
 
 public class Criteria {
