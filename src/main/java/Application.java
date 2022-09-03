@@ -1,5 +1,5 @@
 import Result.Output;
-import Result.Stat.OutputError;
+import Result.OutputError;
 
 import java.io.IOException;
 

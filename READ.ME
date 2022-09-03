@@ -1,7 +1,9 @@
 Скачать проект
-Положить файл с входными данными input.json в папку проекта
-Ввести в командной строке java -jar lab.jar -s -.json -.json
-где -s тип операции search/stat
+Сборка: в командной строке из папки проекта mvn clean compile assembly:single
+Запуск: положить файл с входными данными input.json в папку проекта
+Ввести в командной строке java -jar -.jar -s -.json -.json
+где -.jar jar-файл сгенерированный при сборке
+-s тип операции search/stat
 -.json файл типа json. В 1 хранится входные данные, второй для вывода
 
 Пример запуска: java -jar lab.jar search input.json output.json
